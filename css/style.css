@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {}
+
+.badge_container {
+    margin: 50px auto;
+    width: 400px;
+    box-shadow: 5px 5px 10px green;
+    padding: 10px;
+}
+
+.heading {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px
+}
+
+.badge_container h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 10px;
+}
+
+.badge_container a {
+    text-decoration: none;
+    padding: 3px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.badge_primary a {
+    background-color: rgb(209, 224, 255);
+    color: rgb(39, 49, 70);
+}
+
+.badge_secondary a {
+    background-color: rgb(226, 227, 229);
+    color: rgb(36, 38, 38);
+
+}
+
+.badge_success a {
+    background-color: rgb(209, 230, 221);
+    color: rgb(62, 81, 73);
+
+}
+
+.badge_danger a {
+    background-color: rgb(248, 216, 219);
+    color: rgb(103, 81, 83);
+
+}
+
+.badge_warning a {
+    background-color: rgb(255, 243, 205);
+    color: rgb(101, 96, 81);
+
+}
+
+.badge_info a {
+    background-color: rgb(207, 244, 252);
+    color: rgb(70, 81, 85);
+}
+
+
+
+
+.profile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    align-items: center;
+    gap: 31px;
+    flex-direction: column;
+}
+
+.profile_content {
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 5px 5px 10px green;
+    padding: 20px;
+}
+
+.pop_primary a {
+    padding: 10px;
+    background-color: rgb(209, 224, 255);
+    color: rgb(39, 49, 70);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.red_dot {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: red;
+    border-radius: 50px;
+    position: relative;
+    left: 50px;
+    bottom: 47px;
+}
+
+.num {
+    position: relative;
+    bottom: 66px;
+    left: 83px;
+    color: white;
+}
+
+.pop_seconary a {
+    padding: 10px;
+    background-color: rgb(226, 227, 229);
+    color: rgb(36, 38, 38);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pop_success a {
+    padding: 10px;
+    background-color: rgb(209, 230, 221);
+    color: rgb(62, 81, 73);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pop_danger a {
+    padding: 10px;
+    background-color: rgb(248, 216, 219);
+    color: rgb(103, 81, 83);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pop_warning a {
+    padding: 10px;
+    background-color: rgb(255, 243, 205);
+    color: rgb(101, 96, 81);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pop_info a {
+    padding: 10px;
+    background-color: rgb(207, 244, 252);
+    color: rgb(70, 81, 85);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+.notifications_primary a {
+    padding: 10px;
+    background-color: rgb(209, 224, 255);
+    color: rgb(39, 49, 70);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.red_notifi {
+    background-color: red;
+    display: inline-block;
+    border-radius: 14px;
+    color: white;
+    padding: 0px 6px;
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+}
+
+.num {
+    position: relative;
+    bottom: 66px;
+    left: 83px;
+    color: white;
+}
+
+.notifications_seconary a {
+    padding: 10px;
+    background-color: rgb(226, 227, 229);
+    color: rgb(36, 38, 38);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.notifications_success a {
+    padding: 10px;
+    background-color: rgb(209, 230, 221);
+    color: rgb(62, 81, 73);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.notifications_danger a {
+    padding: 10px;
+    background-color: rgb(248, 216, 219);
+    color: rgb(103, 81, 83);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.notifications_warning a {
+    padding: 10px;
+    background-color: rgb(255, 243, 205);
+    color: rgb(101, 96, 81);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.notifications_info a {
+    padding: 10px;
+    background-color: rgb(207, 244, 252);
+    color: rgb(70, 81, 85);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+.line {
+    padding: 5px 11px;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.line_primary a {
+    padding: 10px;
+    background-color: rgb(209, 224, 255);
+    color: rgb(39, 49, 70);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line_seconary a {
+    padding: 10px;
+    background-color: rgb(226, 227, 229);
+    color: rgb(36, 38, 38);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line_success a {
+    padding: 10px;
+    background-color: rgb(209, 230, 221);
+    color: rgb(62, 81, 73);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line_danger a {
+    padding: 10px;
+    background-color: rgb(248, 216, 219);
+    color: rgb(103, 81, 83);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line_warning a {
+    padding: 10px;
+    background-color: rgb(255, 243, 205);
+    color: rgb(101, 96, 81);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line_info a {
+    padding: 10px;
+    background-color: rgb(207, 244, 252);
+    color: rgb(70, 81, 85);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.pop {
+    display: flex;
+    padding: 10px;
+}
